@@ -1,0 +1,51 @@
+# Laravel-specific
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/storage/app/public
+
+# Sensitive files
+.env
+.env.*.backup
+
+# Caches and logs
+/storage/*.key
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/logs/*
+
+# IDE/OS generated files
+/.idea
+/.vscode
+/.phpunit.result.cache
+*.log
+*.env
+
+# Composer and NPM dependency folders
+/vendor
+/node_modules
+
+# Compiled assets and deployment files
+/public/hot
+/public/storage
+/public/mix-manifest.json
+/public/css/app.css
+/public/js/app.js
+/public/js/*.map
+/public/css/*.map
+/npm-debug.log
+yarn-error.log
+
+# Laravel Mix
+/.sass-cache
+/.grunt
+/.node_modules
+/.npm
+
+# Deployment or CI/CD specific files
+Homestead.yaml
+Homestead.json
+.phpunit.result.cache
